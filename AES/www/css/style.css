@@ -1,0 +1,83 @@
+.pane_old {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfd), color-stop(100%,#99adca));
+    background: -webkit-linear-gradient(top, #fcfcfd 0%,#99adca 100%);
+}
+.pane {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfd), color-stop(100%,#f8f8f8));
+    background: -webkit-linear-gradient(top, #fcfcfd 0%,#f8f8f8 100%);
+}
+
+.home-hello {
+  position: relative;
+  background-color: #387ef5;
+}
+
+.home-hello .item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  border: 0;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.affiliation-form{
+    margin: 62px 1px !important;
+}
+
+.home-container {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+.bar-footer  {
+  height: 25px;
+}
+
+.transparant {
+  background: rgba(255, 255, 255, 0.02);
+  border: none;
+}
+
+.center-aligned {
+  text-align: center;
+}
+
+.home-icon {
+  background-image:url('img/home.fw.png');
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+.icon-large {
+    width: 50px;
+}
+.icon-small {
+   height: 30px;
+   width: 30px;
+   opacity: 0.6;
+}
+.image-profile{
+  -webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.home-name-card {
+  text-align: left;
+  text-transform: capitalize;
+  color: #387EF5;
+}
+.image-profile-avtar{
+  -webkit-border-radius: 50px;
+	border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  float:right;
+}
